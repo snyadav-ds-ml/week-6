@@ -1,10 +1,10 @@
 import requests
 import pandas as pd
 
-
 class Genius:
 
     def __init__(self, access_token):
+
         self.access_token = access_token
 
     def get_access_token(self):
